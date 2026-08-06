@@ -1,0 +1,7 @@
+{
+  "enable_flow_logs": false,
+  "flow_logs_sampling": 0.5,
+  "nat_enabled": false,
+  "firewall_allow_iap_ssh": false,
+  "firewall_allow_internal": false
+}
