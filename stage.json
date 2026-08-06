@@ -1,0 +1,11 @@
+{
+  "enable_flow_logs": false,
+  "flow_logs_sampling": 0.5,
+  "nat_enabled": true,
+  "firewall_allow_iap_ssh": false,
+  "firewall_allow_internal": false,
+  "subnets": [
+    { "name": "stage-subnet-1", "cidr": "10.20.0.0/24", "private_google_access": true },
+    { "name": "stage-subnet-2", "cidr": "10.20.1.0/24", "private_google_access": true }
+  ]
+}
