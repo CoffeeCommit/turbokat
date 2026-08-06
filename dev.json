@@ -5,6 +5,6 @@
   "firewall_allow_iap_ssh": false,
   "firewall_allow_internal": false,
   "subnets": [
-    { "name": "dev-subnet-1", "cidr": "10.10.0.0/24", "private_google_access": true }
+    { "name": "dev-subnet-1", "cidr": "10.90.0.0/20", "private_google_access": true }
   ]
 }
